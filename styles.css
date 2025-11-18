@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+body {
+    background-color: rgb(70, 101, 107);
+    color:rgb(203, 255, 246);
+    font-family: Lexend, Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    
+}
+#title{
+    animation: intro 2s ease-in-out infinite;
+
+}
+img{
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    height: auto;
+}
+img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+img{
+
+}
+@keyframes thing {
+
+}
+@keyframes intro {
+0%{
+    opacity: 1;
+    transform: translateX(0px);
+}
+50%{
+    transform: translateX(50px);
+    rotate: 10deg;
+}
+75%{
+    transform: translateX(-50px);
+    rotate: -10deg;
+}
+100%{
+    opacity: 1;
+    transform: translateX(0px);
+}
+    
+}
+title{
+    span{
+        animation: intro 1s ease-in-out infinite;
+    }
+}
+button{
+    background-color: rgb(0, 255, 98);
+    font-family: 'Lexend', Georgia, 'Times New Roman', Times, serif;
+    padding: 3px;
+    
+}
+#navbar {
+    text-align: center;
+    a{
+        color:aqua;
+        text-decoration: none;   
+    }
+}
